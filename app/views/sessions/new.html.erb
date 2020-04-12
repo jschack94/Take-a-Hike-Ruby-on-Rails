@@ -1,4 +1,4 @@
-<h1>Login</h2>
+ <p class="h4 mb-4">Sign in</p>
 
 <div class="wrapper">
   <%= form_tag login_path do %>
@@ -8,7 +8,17 @@
   <div class="field"> 
     <%= password_field_tag :password, nil,  placeholder: "Password" %><br /> 
   </div>
-    <%= submit_tag "Login" %>
+   <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
   <% end %><br />
-  <h3> Don't have an account? <%= link_to "Sign Up", new_user_path %> here or Login with <%= link_to('Facebook', '/auth/facebook') %></h3>
+
+  
+  <h3> Don't have an account? <%= link_to "Sign Up", new_user_path %> here <p>
+  <p>OR sign in with:</p>
+
+    <a href="#" class="mx-2" role="button"><i class="fab fa-facebook-f light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-twitter light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-linkedin-in light-blue-text"></i></a>
+    <a href="#" class="mx-2" role="button"><i class="fab fa-github light-blue-text"></i></a>
 </div>
+
+
