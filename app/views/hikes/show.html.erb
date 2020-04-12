@@ -1,0 +1,15 @@
+<h1>Hike Info:</h1><br />
+<h2><%= @hike.name %> - <%= @hike.state %></h2>
+<p><%= @hike.description %></p><br />
+
+<h2>Add a comment:</h2>
+  <%= render 'comments/form' %>
+<br />
+
+<h2>Comments:</h2>
+  <%= render 'comments/comments'%>
+<br />
+
+<%= link_to "Edit", edit_hike_path(@hike) %>
+<%= link_to "Back", user_hikes_path(@user) %>
+<%= link_to "Delete", @hike, method: :delete, data: { confirm: "Are you sure you want to delete this hike?"} %>

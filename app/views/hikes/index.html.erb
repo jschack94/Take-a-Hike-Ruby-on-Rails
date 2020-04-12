@@ -1,0 +1,14 @@
+<h1>Hikes</h1>
+
+<ul class="list-group">
+  <% @hikes.each do |hike| %>
+    <li class="list-group-item"><%= link_to hike.name, hike_path(hike) %>
+     created by: <%= hike.user.username %>
+     <% if hike.user == current_user %>
+       <%= link_to "Edit", edit_hike_path(hike) %>
+       <%= link_to "Delete", hike, method: :delete, data: { confirm: "Are you sure you want to delete this hike?"} %>
+     <% end %>
+   </li>
+  <br />
+  <% end %>
+</ul>

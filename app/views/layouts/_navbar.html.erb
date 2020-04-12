@@ -1,0 +1,27 @@
+<!-- navbar -->  
+<nav class="navbar navbar-expand-lg fixed-top ">  
+  <a class="navbar-brand" href="/">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">     
+    <ul class="navbar-nav mr-4">
+     <% if current_user %>
+        <li class="nav-item">
+          <h5>Logged in as <%= current_user.username %></h5>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-value="See All Hikes"><%= link_to "See All Hikes", user_hikes_path(current_user)%></a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link " data-value="My Hikes"><%= link_to "My Hikes", user_path(current_user)%></a>    
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link " data-value="Logout"><%= link_to "logout", '/logout' if current_user %></a>  
+        </li> 
+      <% else %>
+        <%= link_to "Login", login_path %>
+      <% end %>
+    </ul> 
+  </div>
+</nav>

@@ -1,0 +1,14 @@
+<h1>Login</h2>
+
+<div class="wrapper">
+  <%= form_tag login_path do %>
+  <div class="field">
+    <%= text_field_tag :username, nil, placeholder: "Username" %><br />
+  </div>
+  <div class="field"> 
+    <%= password_field_tag :password, nil,  placeholder: "Password" %><br /> 
+  </div>
+    <%= submit_tag "Login" %>
+  <% end %><br />
+  <h3> Don't have an account? <%= link_to "Sign Up", new_user_path %> here or Login with <%= link_to('Facebook', '/auth/facebook') %></h3>
+</div>

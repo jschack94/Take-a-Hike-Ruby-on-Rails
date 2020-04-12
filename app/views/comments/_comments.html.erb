@@ -1,0 +1,11 @@
+<div class="comment">
+  <% @hike.comments.each do |c| %>
+    <p><strong><%= c.content %></strong><br />by: <%= c.commentor.username %></p><br />
+      <% if current_user.id == c.user_id %>
+        <%= form_tag(hike_comment_path(@hike, c), method: "delete") do %>
+          <div><%= submit_tag 'Delete Comment' %></div>
+        <% end %>
+      <% end %>
+    <%#= button_to "Delete Comment", {:controller => :comments, :action => 'destroy', :id => c.id}, :method => :delete %>
+  <% end %>
+</div>

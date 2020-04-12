@@ -1,0 +1,5 @@
+<h2>Here are the most recently added hikes:</h2>
+<% @hikes.each do |hike| %>
+<li class="list-group-item"><%= link_to hike.name, hike_path(hike) %>
+     created by: <%= hike.user.username %>
+<% end %>

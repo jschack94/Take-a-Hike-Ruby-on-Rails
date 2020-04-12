@@ -1,0 +1,6 @@
+<%= form_for [@hike, @comment] do |f| %>
+  <%= f.hidden_field :user_id, :value => @user.id %>
+  <%= f.hidden_field :hike_id, :value => @hike.id %>
+  <%= f.text_field :content %>
+  <%= f.submit "Submit comment" %>
+<% end %>
