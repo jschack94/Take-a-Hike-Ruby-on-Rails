@@ -78,6 +78,10 @@
     background:#27AE60;
     color:#fff;
   }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   
   /* <---- body style ----> */
   
