@@ -1,24 +1,26 @@
-# README
+Take a Hike is a...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+Current Features<p>
+A user can...<p>
+A user can...<p>
+A user can...<p>
+A user can...<p>
 
-* System dependencies
+Demo
+View Demo on YouTube Here:
 
-* Configuration
+Contributing:
+Fork this repository.
+Create a branch: git checkout -b <branch_name>.
+Make your changes and commit them: git commit -m '<commit_message>'
+Push to the original branch: git push origin <project_name>/<location>
+Create the pull request.
+Alternatively see the GitHub documentation on creating a pull request.
 
-* Database creation
+Contact
+My e-mail is jschack94@gmail.com. visit my LinkedIn at https://www.linkedin.com/in/jonathan-schack/
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+License
+This project uses the following license: MIT License.
