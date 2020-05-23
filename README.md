@@ -1,4 +1,4 @@
-Take a Hike <p>
+<strong> Take a Hike </strong> <p>
 
 Take a Hike is a... <p>
 
