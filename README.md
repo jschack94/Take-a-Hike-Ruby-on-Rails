@@ -23,7 +23,7 @@ Push to the original branch: git push origin <project_name>/<location> <p>
 Create the pull request. <p>
 Alternatively see the GitHub documentation on creating a pull request.
 
-<strong> Contact </strong
+<strong> Contact </strong>
 My e-mail is jschack94@gmail.com. <p> Visit my LinkedIn at https://www.linkedin.com/in/jonathan-schack/
 
 <strong> License </strong>
