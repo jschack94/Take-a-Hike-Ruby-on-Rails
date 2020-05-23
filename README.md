@@ -10,7 +10,7 @@ A user can...<p>
 A user can...<p>
 A user can...<p>
   
-Tools <p>
+<strong> Tools Used </strong> <p>
 
 <strong> Demo </strong> <p>
 View Demo on YouTube Here:
@@ -26,5 +26,5 @@ Alternatively see the GitHub documentation on creating a pull request.
 <strong> Contact </strong
 My e-mail is jschack94@gmail.com. <p> Visit my LinkedIn at https://www.linkedin.com/in/jonathan-schack/
 
-License
+<strong> License </strong>
 This project uses the following license: MIT License.
