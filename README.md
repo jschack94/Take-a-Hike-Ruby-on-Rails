@@ -10,6 +10,9 @@ A user can...<p>
 A user can...<p>
 A user can...<p>
   
+
+<strong> Problems Solved: </strong> <p>
+  
 <strong> Tools Used: </strong> <p>
 
 <strong> Demo: </strong> <p>
