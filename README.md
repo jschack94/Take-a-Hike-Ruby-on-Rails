@@ -16,11 +16,11 @@ Demo <p>
 View Demo on YouTube Here:
 
 Contributing:
-Fork this repository.
-Create a branch: git checkout -b <branch_name>.
-Make your changes and commit them: git commit -m '<commit_message>'
-Push to the original branch: git push origin <project_name>/<location>
-Create the pull request.
+Fork this repository. <p>
+Create a branch: git checkout -b <branch_name>. <p>
+Make your changes and commit them: git commit -m '<commit_message>' <p>
+Push to the original branch: git push origin <project_name>/<location> <p>
+Create the pull request. <p>
 Alternatively see the GitHub documentation on creating a pull request.
 
 Contact
