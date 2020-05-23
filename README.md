@@ -24,7 +24,7 @@ Create the pull request.
 Alternatively see the GitHub documentation on creating a pull request.
 
 Contact
-My e-mail is jschack94@gmail.com. visit my LinkedIn at https://www.linkedin.com/in/jonathan-schack/
+My e-mail is jschack94@gmail.com. <p> Visit my LinkedIn at https://www.linkedin.com/in/jonathan-schack/
 
 License
 This project uses the following license: MIT License.
