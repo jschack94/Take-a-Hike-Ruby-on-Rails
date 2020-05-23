@@ -1,4 +1,6 @@
-Take a Hike is a...
+Take a Hike <p>
+
+Take a Hike is a... <p>
 
 
 
@@ -7,8 +9,10 @@ A user can...<p>
 A user can...<p>
 A user can...<p>
 A user can...<p>
+  
+Tools <p>
 
-Demo
+Demo <p>
 View Demo on YouTube Here:
 
 Contributing:
