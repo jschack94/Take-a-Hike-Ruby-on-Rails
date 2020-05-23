@@ -15,7 +15,7 @@ A user can...<p>
 <strong> Demo </strong> <p>
 View Demo on YouTube Here:
 
-<strong> Contributing: </strong>
+<strong> Contributing: </strong> <p>
 Fork this repository. <p>
 Create a branch: git checkout -b <branch_name>. <p>
 Make your changes and commit them: git commit -m '<commit_message>' <p>
