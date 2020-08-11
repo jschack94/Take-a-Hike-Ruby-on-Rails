@@ -1,7 +1,7 @@
 require_relative 'boot'
 
 # Deleted require "rails/all" because active storage was creating weird routes
-require "rails" 
+require "rails"
 
 # Include each railties manually, excluding `active_storage/engine`
 require "active_model/railtie"
