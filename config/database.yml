@@ -15,3 +15,6 @@ test:
   username: jonathanschack
   password: jonathanschack
   timeout: 5000
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
