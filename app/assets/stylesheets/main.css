@@ -63,6 +63,7 @@
     padding: 2em;
   }
   .description h1 {
+  
     color:#27AE60 ;
   }
   
@@ -79,8 +80,9 @@
     color:#fff;
   }
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+   align-content: center;
+   margin-left: -5000px;
+  
   }
   
   /* <---- body style ----> */

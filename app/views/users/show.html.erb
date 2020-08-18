@@ -1,7 +1,8 @@
+<br>
 <h1>My Hikes</h1>
 
 <%= link_to "Create new hike", new_user_hike_path(@user) %><br />
-
+<br>
 <h4><%= @user.username %></h4>has created the following hikes:
 <ul><% @user.hikes.each do |hike| %>
   <li><%= link_to hike.name, hike_path(hike) %></li>
