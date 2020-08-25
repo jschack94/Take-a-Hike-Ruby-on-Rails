@@ -1,5 +1,6 @@
 # Take a Hike
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/64amJiVCPBxhrSdODO" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/walk-hiking-hike-64amJiVCPBxhrSdODO">via GIPHY</a></p>
+<p>
 
 Take a Hike is a web application that helps users organize and find hikes that they have completed. If you would like to create and exchange information on hikes, you can sign up. 
 
